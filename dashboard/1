@@ -1,0 +1,11 @@
+{
+  "status": "SUCCESS",
+  "message": "Dashboard data retrieved successfully",
+  "data": {
+    "employeeId": "12345",
+    "attendanceRate": 85.5,
+    "absencesRate": 10.2,
+    "vacationsRate": 2.3,
+    "permissionsRate": 2.0
+  }
+}
