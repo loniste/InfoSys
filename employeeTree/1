@@ -1,0 +1,82 @@
+{
+  "status": "SUCCESS",
+  "message": "Sub employee data retrieved successfully",
+  "data": {
+    "fullName": "John Smith",
+    "password": "password123",
+    "subSubEmployeeResponse": [
+      {
+        "fullName": "Jane Doe",
+        "password": "password456",
+        "subSubEmployeeResponse": [],
+        "function": "manager",
+        "id": "2"
+      },
+      {
+        "fullName": "Jack Johnson",
+        "password": "password789",
+        "subSubEmployeeResponse": [],
+        "function": "sales",
+        "id": "3"
+      },
+      {
+        "fullName": "Sarah Lee",
+        "password": "passwordabc",
+        "subSubEmployeeResponse": [],
+        "function": "developer",
+        "id": "4"
+      },
+      {
+        "fullName": "Adam Smith",
+        "password": "passworddef",
+        "subSubEmployeeResponse": [],
+        "function": "manager",
+        "id": "5"
+      },
+      {
+        "fullName": "Emily Davis",
+        "password": "passwordxyz",
+        "subSubEmployeeResponse": [],
+        "function": "sales",
+        "id": "6"
+      },
+      {
+        "fullName": "Chris Brown",
+        "password": "passwordlmn",
+        "subSubEmployeeResponse": [],
+        "function": "developer",
+        "id": "7"
+      },
+      {
+        "fullName": "Ava Wilson",
+        "password": "passwordpqr",
+        "subSubEmployeeResponse": [],
+        "function": "manager",
+        "id": "8"
+      },
+      {
+        "fullName": "Daniel White",
+        "password": "passwordstu",
+        "subSubEmployeeResponse": [],
+        "function": "sales",
+        "id": "9"
+      },
+      {
+        "fullName": "Olivia Green",
+        "password": "passwordvwx",
+        "subSubEmployeeResponse": [],
+        "function": "developer",
+        "id": "10"
+      },
+      {
+        "fullName": "Matthew Black",
+        "password": "passwordyza",
+        "subSubEmployeeResponse": [],
+        "function": "manager",
+        "id": "11"
+      }
+    ],
+    "function": "supervisor",
+    "id": "1"
+  }
+}
