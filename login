@@ -1,5 +1,5 @@
 {
-  "status": "success",
+  "status": "SUCCESS",
   "message": "Login successful",
   "data": {
     "user_id": 123,
