@@ -1,11 +1,11 @@
 {
-  "status": "SUCCESS",
-  "message": "Dashboard data retrieved successfully",
-  "data": {
-    "employeeId": "2",
-    "attendanceRate": 0.902,
-    "absencesRate": 0.078,
-    "vacationsRate": 0.015,
-    "permissionsRate": 0.005
-  }
+    "status": "SUCCESS",
+    "message": "Dashboard data retrieved successfully",
+    "data": {
+        "employeeId": "2",
+        "attendanceRate": 0.981,
+        "absencesRate": 0.194,
+        "vacationsRate": 0.671,
+        "permissionsRate": 0.328
+    }
 }
