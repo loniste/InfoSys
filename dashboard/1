@@ -1,5 +1,5 @@
 {
-    "status": "",
+    "status": "SUCCESS",
     "message": "Dashboard data retrieved successfully",
     "data": {
         "employeeId": "1",
