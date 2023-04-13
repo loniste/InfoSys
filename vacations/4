@@ -1,0 +1,29 @@
+{
+    "vacations": [
+        {
+            "startDate": "2022-02-01",
+            "type": 3,
+            "daysNumber": 3
+        },
+        {
+            "startDate": "2022-03-15",
+            "type": 2,
+            "daysNumber": 5
+        },
+        {
+            "startDate": "2022-05-20",
+            "type": 0,
+            "daysNumber": 2
+        },
+        {
+            "startDate": "2022-08-08",
+            "type": 1,
+            "daysNumber": 6
+        },
+        {
+            "startDate": "2022-12-24",
+            "type": 3,
+            "daysNumber": 7
+        }
+    ]
+}
