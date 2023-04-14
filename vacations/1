@@ -4,7 +4,7 @@
     "status": "SUCCESS",
     "message": "data retrieved successfully",
     "data": {
-       {
+       
     "vacations": [
         {
             "startDate": "2022-07-01",
@@ -24,7 +24,6 @@
     ]
 }
 
-    }
+    
 }
-
 
