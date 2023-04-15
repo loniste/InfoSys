@@ -1,29 +1,18 @@
 {
-    "vacations": [
-        {
-            "startDate": "2022-02-01",
-            "type": 3,
-            "daysNumber": 3
-        },
-        {
-            "startDate": "2022-03-15",
-            "type": 2,
-            "daysNumber": 5
-        },
-        {
-            "startDate": "2022-05-20",
-            "type": 0,
-            "daysNumber": 2
-        },
-        {
-            "startDate": "2022-08-08",
-            "type": 1,
-            "daysNumber": 6
-        },
-        {
-            "startDate": "2022-12-24",
-            "type": 3,
-            "daysNumber": 7
-        }
-    ]
+    "status": "SUCCESS",
+    "message": "data retrieved successfully",
+    "data": {
+        "vacations": [
+            {
+                "startDate": "2023-07-01T00:00:00",
+                "type": 0,
+                "daysNumber": 5
+            },
+            {
+                "startDate": "2023-09-15T00:00:00",
+                "type": 1,
+                "daysNumber": 7
+            }
+        ]
+    }
 }
