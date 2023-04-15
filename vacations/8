@@ -1,0 +1,13 @@
+{
+    "status": "SUCCESS",
+    "message": "data retrieved successfully",
+    "data": {
+        "vacations": [
+            {
+                "startDate": "2023-01-01T00:00:00",
+                "type": 2,
+                "daysNumber": 5
+            }
+        ]
+    }
+}
