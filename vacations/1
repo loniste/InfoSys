@@ -17,6 +17,61 @@
                 "startDate": "2023-12-24T00:00:00",
                 "type": 1,
                 "daysNumber": 4
+            },
+            {
+                "startDate": "2023-12-24T00:00:00",
+                "type": 1,
+                "daysNumber": 4
+            },
+            {
+                "startDate": "2023-12-24T00:00:00",
+                "type": 1,
+                "daysNumber": 4
+            },
+            {
+                "startDate": "2022-12-24T00:00:00",
+                "type": 1,
+                "daysNumber": 4
+            },
+            {
+                "startDate": "2022-12-24T00:00:00",
+                "type": 1,
+                "daysNumber": 4
+            },
+            {
+                "startDate": "2022-12-24T00:00:00",
+                "type": 1,
+                "daysNumber": 4
+            },
+            {
+                "startDate": "2022-12-24T00:00:00",
+                "type": 1,
+                "daysNumber": 4
+            },
+            {
+                "startDate": "2022-12-24T00:00:00",
+                "type": 1,
+                "daysNumber": 4
+            },
+            {
+                "startDate": "2020-12-24T00:00:00",
+                "type": 1,
+                "daysNumber": 5
+            },
+            {
+                "startDate": "2020-12-24T00:00:00",
+                "type": 3,
+                "daysNumber": 15
+            },
+            {
+                "startDate": "2020-12-24T00:00:00",
+                "type": 3,
+                "daysNumber": 4
+            },
+            {
+                "startDate": "2020-12-24T00:00:00",
+                "type": 2,
+                "daysNumber": 4
             }
         ]
     }
