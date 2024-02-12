@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "name": "Administrative Leave",
+    "color": "#b56576"
+  },
+  {
+    "id": "2",
+    "name": "Birth Leave",
+    "color": "#123456"
+  },
+  {
+    "id": "3",
+    "name": "Emergency Leave",
+    "color": "#2468ac"
+  },
+  {
+    "id": "4",
+    "name": "Sick Leave",
+    "color": "#36af14"
+  },
+  {
+    "id": "5",
+    "name": "Vacation Leave",
+    "color": "#48d79b"
+  },
+  {
+    "id": "6",
+    "name": "Maternity Leave",
+    "color": "#5bfeff"
+  },
+  {
+    "id": "7",
+    "name": "Paternity Leave",
+    "color": "#6d9ce1"
+  },
+  {
+    "id": "8",
+    "name": "Bereavement Leave",
+    "color": "#7f4586"
+  },
+  {
+    "id": "9",
+    "name": "Parental Leave",
+    "color": "#91bc4c"
+  },
+  {
+    "id": "10",
+    "name": "Unpaid Leave",
+    "color": "#a34f9e"
+  },
+  {
+    "id": "11",
+    "name": "Educational Leave",
+    "color": "#b56576"
+  }
+]
