@@ -1,4 +1,8 @@
 {
-  "id_employee": "1",
-  "vacation_balance": 20
+   "status":"SUCCESS",
+   "message":"data retrieved successfully",
+   "data":{
+      "id_employee":"1",
+      "vacation_balance":20
+   }
 }
