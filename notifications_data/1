@@ -30,9 +30,9 @@
       "created_at": "2024-02-25T14:15:23+01:00"
     },
     {
-      "notification_id": "131415",
-      "title": "Order confirmation",
-      "desc": "Your order for 'Headphones' has been confirmed.",
+      "notification_id": "321565321",
+      "title": "For test notification",
+      "desc": "This notification has an id of 321565321",
       "created_at": "2024-02-25T13:50:01+01:00"
     },
     {
