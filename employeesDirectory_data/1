@@ -1,5 +1,141 @@
- {
-    "status": "SUCCESS",
-    "message": "data retrieved successfully",
-    "data":
-    }
+{
+   "status":"SUCCESS",
+   "message":"data retrieved successfully",
+   "data":[
+      {
+         "id":"1",
+         "personal_details":{
+            "first_name":"John",
+            "last_name":"Doe",
+            "date_of_birth":"1990-01-01",
+            "gender":"MALE",
+            "nationality":"USA",
+            "photo_url":"https://example.com/john_doe.jpg"
+         },
+         "employment_details":{
+            "department":"Engineering",
+            "position":"Software Engineer",
+            "start_date":"2020-01-01",
+            "end_date":null
+         },
+         "contact_details":{
+            "email":"john.doe@example.com",
+            "phone":"+1234567890",
+            "address":"123 Main Street, Anytown, USA"
+         },
+         "emergency_contact":{
+            "name":"Jane Doe",
+            "relationship":"Spouse",
+            "phone":"+1234567891"
+         }
+      },
+      {
+         "id":"2",
+         "personal_details":{
+            "first_name":"Alice",
+            "last_name":"Smith",
+            "date_of_birth":"1985-05-15",
+            "gender":"FEMALE",
+            "nationality":"Canada",
+            "photo_url":"https://example.com/alice_smith.jpg"
+         },
+         "employment_details":{
+            "department":"Marketing",
+            "position":"Marketing Manager",
+            "start_date":"2018-03-01",
+            "end_date":null
+         },
+         "contact_details":{
+            "email":"alice.smith@example.com",
+            "phone":"+1987654321",
+            "address":"456 Maple Avenue, Anycity, Canada"
+         },
+         "emergency_contact":{
+            "name":"Bob Smith",
+            "relationship":"Spouse",
+            "phone":"+1987654322"
+         }
+      },
+      {
+         "id":"3",
+         "personal_details":{
+            "first_name":"Michael",
+            "last_name":"Johnson",
+            "date_of_birth":"1978-09-20",
+            "gender":"MALE",
+            "nationality":"UK",
+            "photo_url":"https://example.com/michael_johnson.jpg"
+         },
+         "employment_details":{
+            "department":"Finance",
+            "position":"Financial Analyst",
+            "start_date":"2015-06-01",
+            "end_date":null
+         },
+         "contact_details":{
+            "email":"michael.johnson@example.com",
+            "phone":"+4432156789",
+            "address":"789 Oak Street, Anycity, UK"
+         },
+         "emergency_contact":{
+            "name":"Emily Johnson",
+            "relationship":"Spouse",
+            "phone":"+4432156790"
+         }
+      },
+      {
+         "id":"4",
+         "personal_details":{
+            "first_name":"Sophia",
+            "last_name":"Brown",
+            "date_of_birth":"1993-07-10",
+            "gender":"FEMALE",
+            "nationality":"Australia",
+            "photo_url":"https://example.com/sophia_brown.jpg"
+         },
+         "employment_details":{
+            "department":"Human Resources",
+            "position":"HR Manager",
+            "start_date":"2017-02-15",
+            "end_date":null
+         },
+         "contact_details":{
+            "email":"sophia.brown@example.com",
+            "phone":"+6123456789",
+            "address":"789 Elm Street, Anycity, Australia"
+         },
+         "emergency_contact":{
+            "name":"David Brown",
+            "relationship":"Spouse",
+            "phone":"+6123456790"
+         }
+      },
+      {
+         "id":"5",
+         "personal_details":{
+            "first_name":"Mohammed",
+            "last_name":"Ali",
+            "date_of_birth":"1980-12-05",
+            "gender":"MALE",
+            "nationality":"Egypt",
+            "photo_url":"https://example.com/mohammed_ali.jpg"
+         },
+         "employment_details":{
+            "department":"Operations",
+            "position":"Operations Manager",
+            "start_date":"2010-10-01",
+            "end_date":null
+         },
+         "contact_details":{
+            "email":"mohammed.ali@example.com",
+            "phone":"+20123456789",
+            "address":"456 Pine Street, Anycity, Egypt"
+         },
+         "emergency_contact":{
+            "name":"Fatima Ali",
+            "relationship":"Spouse",
+            "phone":"+20123456790"
+         }
+      }
+   ]
+}
