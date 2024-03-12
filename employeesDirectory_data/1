@@ -40,7 +40,7 @@
          "photo_url":"https://example.com/aishakamara.jpg"
       },
       "employment_details":{
-         "department":"Technology",
+         "department":"IT",
          "position":"Data Scientist",
          "start_date":"2019-07-01",
          "end_date":null
@@ -256,8 +256,8 @@
          "photo_url":"https://example.com/leilamohamed.jpg"
       },
       "employment_details":{
-         "department":"Education",
-         "position":"Teacher",
+         "department":"Logistics",
+         "position":"Logistics",
          "start_date":"2015-09-01",
          "end_date":null
       },
@@ -445,7 +445,7 @@
          "photo_url":"https://example.com/ahmedelbahmadi.jpg"
       },
       "employment_details":{
-         "department":"Information Technology",
+         "department":"IT",
          "position":"IT Manager",
          "start_date":"2015-08-20",
          "end_date":null
