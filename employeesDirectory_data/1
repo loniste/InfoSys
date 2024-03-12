@@ -2,140 +2,572 @@
    "status":"SUCCESS",
    "message":"data retrieved successfully",
    "data":[
-      {
-         "id":"1",
-         "personal_details":{
-            "first_name":"John",
-            "last_name":"Doe",
-            "date_of_birth":"1990-01-01",
-            "gender":"MALE",
-            "nationality":"USA",
-            "photo_url":"https://example.com/john_doe.jpg"
-         },
-         "employment_details":{
-            "department":"Engineering",
-            "position":"Software Engineer",
-            "start_date":"2020-01-01",
-            "end_date":null
-         },
-         "contact_details":{
-            "email":"john.doe@example.com",
-            "phone":"+1234567890",
-            "address":"123 Main Street, Anytown, USA"
-         },
-         "emergency_contact":{
-            "name":"Jane Doe",
-            "relationship":"Spouse",
-            "phone":"+1234567891"
-         }
+   {
+      "id":"1",
+      "personal_details":{
+         "first_name":"Mohammed",
+         "last_name":"Ahmed",
+         "date_of_birth":"1995-05-15",
+         "gender":"Male",
+         "nationality":"Egyptian",
+         "photo_url":"https://example.com/mohammedahmed.jpg"
       },
-      {
-         "id":"2",
-         "personal_details":{
-            "first_name":"Alice",
-            "last_name":"Smith",
-            "date_of_birth":"1985-05-15",
-            "gender":"FEMALE",
-            "nationality":"Canada",
-            "photo_url":"https://example.com/alice_smith.jpg"
-         },
-         "employment_details":{
-            "department":"Marketing",
-            "position":"Marketing Manager",
-            "start_date":"2018-03-01",
-            "end_date":null
-         },
-         "contact_details":{
-            "email":"alice.smith@example.com",
-            "phone":"+1987654321",
-            "address":"456 Maple Avenue, Anycity, Canada"
-         },
-         "emergency_contact":{
-            "name":"Bob Smith",
-            "relationship":"Spouse",
-            "phone":"+1987654322"
-         }
+      "employment_details":{
+         "department":"Engineering",
+         "position":"Software Engineer",
+         "start_date":"2021-03-10",
+         "end_date":null
       },
-      {
-         "id":"3",
-         "personal_details":{
-            "first_name":"Michael",
-            "last_name":"Johnson",
-            "date_of_birth":"1978-09-20",
-            "gender":"MALE",
-            "nationality":"UK",
-            "photo_url":"https://example.com/michael_johnson.jpg"
-         },
-         "employment_details":{
-            "department":"Finance",
-            "position":"Financial Analyst",
-            "start_date":"2015-06-01",
-            "end_date":null
-         },
-         "contact_details":{
-            "email":"michael.johnson@example.com",
-            "phone":"+4432156789",
-            "address":"789 Oak Street, Anycity, UK"
-         },
-         "emergency_contact":{
-            "name":"Emily Johnson",
-            "relationship":"Spouse",
-            "phone":"+4432156790"
-         }
+      "contact_details":{
+         "email":"mohammedahmed@example.com",
+         "phone":"+201234567890",
+         "address":"Nile Street, Cairo, Egypt"
       },
-      {
-         "id":"4",
-         "personal_details":{
-            "first_name":"Sophia",
-            "last_name":"Brown",
-            "date_of_birth":"1993-07-10",
-            "gender":"FEMALE",
-            "nationality":"Australia",
-            "photo_url":"https://example.com/sophia_brown.jpg"
-         },
-         "employment_details":{
-            "department":"Human Resources",
-            "position":"HR Manager",
-            "start_date":"2017-02-15",
-            "end_date":null
-         },
-         "contact_details":{
-            "email":"sophia.brown@example.com",
-            "phone":"+6123456789",
-            "address":"789 Elm Street, Anycity, Australia"
-         },
-         "emergency_contact":{
-            "name":"David Brown",
-            "relationship":"Spouse",
-            "phone":"+6123456790"
-         }
-      },
-      {
-         "id":"5",
-         "personal_details":{
-            "first_name":"Mohammed",
-            "last_name":"Ali",
-            "date_of_birth":"1980-12-05",
-            "gender":"MALE",
-            "nationality":"Egypt",
-            "photo_url":"https://example.com/mohammed_ali.jpg"
-         },
-         "employment_details":{
-            "department":"Operations",
-            "position":"Operations Manager",
-            "start_date":"2010-10-01",
-            "end_date":null
-         },
-         "contact_details":{
-            "email":"mohammed.ali@example.com",
-            "phone":"+20123456789",
-            "address":"456 Pine Street, Anycity, Egypt"
-         },
-         "emergency_contact":{
-            "name":"Fatima Ali",
-            "relationship":"Spouse",
-            "phone":"+20123456790"
-         }
+      "emergency_contact":{
+         "name":"Fatima Ahmed",
+         "relationship":"Wife",
+         "phone":"+201098765432"
       }
-   ]
+   },
+   {
+      "id":"2",
+      "personal_details":{
+         "first_name":"Aisha",
+         "last_name":"Kamara",
+         "date_of_birth":"1988-09-20",
+         "gender":"Female",
+         "nationality":"Sierra Leonean",
+         "photo_url":"https://example.com/aishakamara.jpg"
+      },
+      "employment_details":{
+         "department":"Technology",
+         "position":"Data Scientist",
+         "start_date":"2019-07-01",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"aishakamara@example.com",
+         "phone":"+23234567890",
+         "address":"123 Beach Rd, Freetown, Sierra Leone"
+      },
+      "emergency_contact":{
+         "name":"Abdul Kamara",
+         "relationship":"Brother",
+         "phone":"+232123456789"
+      }
+   },
+   {
+      "id":"3",
+      "personal_details":{
+         "first_name":"Layla",
+         "last_name":"Abdullah",
+         "date_of_birth":"1992-11-08",
+         "gender":"Female",
+         "nationality":"Sudanese",
+         "photo_url":"https://example.com/laylaabdullah.jpg"
+      },
+      "employment_details":{
+         "department":"Research",
+         "position":"Biologist",
+         "start_date":"2020-04-15",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"laylaabdullah@example.com",
+         "phone":"+249567890123",
+         "address":"456 Oasis Street, Khartoum, Sudan"
+      },
+      "emergency_contact":{
+         "name":"Ahmed Abdullah",
+         "relationship":"Brother",
+         "phone":"+249112233445"
+      }
+   },
+   {
+      "id":"4",
+      "personal_details":{
+         "first_name":"Youssef",
+         "last_name":"Mahmoud",
+         "date_of_birth":"1985-06-25",
+         "gender":"Male",
+         "nationality":"Moroccan",
+         "photo_url":"https://example.com/youssefmahmoud.jpg"
+      },
+      "employment_details":{
+         "department":"Finance",
+         "position":"Accountant",
+         "start_date":"2018-02-20",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"youssefmahmoud@example.com",
+         "phone":"+212678901234",
+         "address":"789 Medina Ave, Casablanca, Morocco"
+      },
+      "emergency_contact":{
+         "name":"Sara Mahmoud",
+         "relationship":"Sister",
+         "phone":"+212987654321"
+      }
+   },
+   {
+      "id":"5",
+      "personal_details":{
+         "first_name":"Ali",
+         "last_name":"Hassan",
+         "date_of_birth":"1998-03-20",
+         "gender":"Male",
+         "nationality":"Algerian",
+         "photo_url":"https://example.com/alihassan.jpg"
+      },
+      "employment_details":{
+         "department":"Marketing",
+         "position":"Marketing Coordinator",
+         "start_date":"2022-01-10",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"alihassan@example.com",
+         "phone":"+213456789012",
+         "address":"789 Boulevard des Martyrs, Algiers, Algeria"
+      },
+      "emergency_contact":{
+         "name":"Fatima Hassan",
+         "relationship":"Mother",
+         "phone":"+213987654321"
+      }
+   },
+   {
+      "id":"6",
+      "personal_details":{
+         "first_name":"Omar",
+         "last_name":"Ibrahim",
+         "date_of_birth":"1993-09-05",
+         "gender":"Male",
+         "nationality":"Tunisian",
+         "photo_url":"https://example.com/omaribrahim.jpg"
+      },
+      "employment_details":{
+         "department":"Human Resources",
+         "position":"HR Manager",
+         "start_date":"2020-08-15",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"omaribrahim@example.com",
+         "phone":"+21678901234",
+         "address":"123 Avenue Habib Bourguiba, Tunis, Tunisia"
+      },
+      "emergency_contact":{
+         "name":"Hana Ibrahim",
+         "relationship":"Sister",
+         "phone":"+21612345678"
+      }
+   },
+   {
+      "id":"7",
+      "personal_details":{
+         "first_name":"Yusuf",
+         "last_name":"Abdulrahman",
+         "date_of_birth":"1991-07-12",
+         "gender":"Male",
+         "nationality":"Nigerian",
+         "photo_url":"https://example.com/yusufabdulrahman.jpg"
+      },
+      "employment_details":{
+         "department":"Sales",
+         "position":"Sales Representative",
+         "start_date":"2019-05-03",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"yusufabdulrahman@example.com",
+         "phone":"+234567890123",
+         "address":"456 Lagos Avenue, Lagos, Nigeria"
+      },
+      "emergency_contact":{
+         "name":"Amina Abdulrahman",
+         "relationship":"Sister",
+         "phone":"+234987654321"
+      }
+   },
+   {
+      "id":"8",
+      "personal_details":{
+         "first_name":"Hassan",
+         "last_name":"Mohammed",
+         "date_of_birth":"1987-12-30",
+         "gender":"Male",
+         "nationality":"Ghanaian",
+         "photo_url":"https://example.com/hassanmohammed.jpg"
+      },
+      "employment_details":{
+         "department":"Operations",
+         "position":"Operations Manager",
+         "start_date":"2016-10-20",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"hassanmohammed@example.com",
+         "phone":"+233456789012",
+         "address":"789 Accra Street, Accra, Ghana"
+      },
+      "emergency_contact":{
+         "name":"Fatima Mohammed",
+         "relationship":"Wife",
+         "phone":"+233987654321"
+      }
+   },
+   {
+      "id":"9",
+      "personal_details":{
+         "first_name":"Nour",
+         "last_name":"Ali",
+         "date_of_birth":"1994-04-25",
+         "gender":"Female",
+         "nationality":"Moroccan",
+         "photo_url":"https://example.com/nourali.jpg"
+      },
+      "employment_details":{
+         "department":"Finance",
+         "position":"Financial Analyst",
+         "start_date":"2021-02-15",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"nourali@example.com",
+         "phone":"+212345678901",
+         "address":"789 Avenue Hassan II, Rabat, Morocco"
+      },
+      "emergency_contact":{
+         "name":"Khalid Ali",
+         "relationship":"Father",
+         "phone":"+212678901234"
+      }
+   },
+   {
+      "id":"10",
+      "personal_details":{
+         "first_name":"Leila",
+         "last_name":"Mohamed",
+         "date_of_birth":"1990-08-10",
+         "gender":"Female",
+         "nationality":"Kenyan",
+         "photo_url":"https://example.com/leilamohamed.jpg"
+      },
+      "employment_details":{
+         "department":"Education",
+         "position":"Teacher",
+         "start_date":"2015-09-01",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"leilamohamed@example.com",
+         "phone":"+254789012345",
+         "address":"123 School Road, Nairobi, Kenya"
+      },
+      "emergency_contact":{
+         "name":"Ali Mohamed",
+         "relationship":"Brother",
+         "phone":"+254123456789"
+      }
+   },
+   {
+      "id":"11",
+      "personal_details":{
+         "first_name":"Youssef",
+         "last_name":"Abdel Rahman",
+         "date_of_birth":"1993-06-12",
+         "gender":"Male",
+         "nationality":"Egyptian",
+         "photo_url":"https://example.com/youssefabdelrahman.jpg"
+      },
+      "employment_details":{
+         "department":"IT",
+         "position":"Systems Administrator",
+         "start_date":"2018-08-20",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"youssefabdelrahman@example.com",
+         "phone":"+201234567890",
+         "address":"789 Nile Street, Giza, Egypt"
+      },
+      "emergency_contact":{
+         "name":"Fatima Abdel Rahman",
+         "relationship":"Mother",
+         "phone":"+201098765432"
+      }
+   },
+   {
+      "id":"12",
+      "personal_details":{
+         "first_name":"Amira",
+         "last_name":"Said",
+         "date_of_birth":"1996-02-28",
+         "gender":"Female",
+         "nationality":"Algerian",
+         "photo_url":"https://example.com/amirasaid.jpg"
+      },
+      "employment_details":{
+         "department":"Marketing",
+         "position":"Marketing Specialist",
+         "start_date":"2020-03-15",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"amirasaid@example.com",
+         "phone":"+213345678901",
+         "address":"123 Algiers Street, Algiers, Algeria"
+      },
+      "emergency_contact":{
+         "name":"Karim Said",
+         "relationship":"Brother",
+         "phone":"+213789012345"
+      }
+   },
+   {
+      "id":"13",
+      "personal_details":{
+         "first_name":"Amina",
+         "last_name":"Khalil",
+         "date_of_birth":"1990-10-05",
+         "gender":"Female",
+         "nationality":"Tunisian",
+         "photo_url":"https://example.com/aminakhalil.jpg"
+      },
+      "employment_details":{
+         "department":"Sales",
+         "position":"Sales Manager",
+         "start_date":"2017-04-10",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"aminakhalil@example.com",
+         "phone":"+216567890123",
+         "address":"456 Tunis Street, Tunis, Tunisia"
+      },
+      "emergency_contact":{
+         "name":"Ahmed Khalil",
+         "relationship":"Brother",
+         "phone":"+216901234567"
+      }
+   },
+   {
+      "id":"14",
+      "personal_details":{
+         "first_name":"Hassan",
+         "last_name":"Omar",
+         "date_of_birth":"1998-09-15",
+         "gender":"Male",
+         "nationality":"Sudanese",
+         "photo_url":"https://example.com/hassanomar.jpg"
+      },
+      "employment_details":{
+         "department":"Engineering",
+         "position":"Mechanical Engineer",
+         "start_date":"2022-01-05",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"hassanomar@example.com",
+         "phone":"+249678901234",
+         "address":"789 Khartoum Street, Khartoum, Sudan"
+      },
+      "emergency_contact":{
+         "name":"Fatima Omar",
+         "relationship":"Sister",
+         "phone":"+249345678901"
+      }
+   },
+   {
+      "id":"15",
+      "personal_details":{
+         "first_name":"Ali",
+         "last_name":"Hamed",
+         "date_of_birth":"1995-11-20",
+         "gender":"Male",
+         "nationality":"Moroccan",
+         "photo_url":"https://example.com/alihamed.jpg"
+      },
+      "employment_details":{
+         "department":"Finance",
+         "position":"Financial Analyst",
+         "start_date":"2019-07-10",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"alihamed@example.com",
+         "phone":"+212567890123",
+         "address":"123 Casablanca Street, Casablanca, Morocco"
+      },
+      "emergency_contact":{
+         "name":"Laila Hamed",
+         "relationship":"Sister",
+         "phone":"+212789012345"
+      }
+   },
+   {
+      "id":"16",
+      "personal_details":{
+         "first_name":"Hakik",
+         "last_name":"Nabil",
+         "date_of_birth":"1990-03-15",
+         "gender":"Male",
+         "nationality":"Moroccan",
+         "photo_url":"https://example.com/hakiknabil.jpg"
+      },
+      "employment_details":{
+         "department":"Research",
+         "position":"Research Scientist",
+         "start_date":"2018-06-10",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"hakiknabil@example.com",
+         "phone":"+212345678901",
+         "address":"456 Atlas Street, Marrakech, Morocco"
+      },
+      "emergency_contact":{
+         "name":"Fatima Nabil",
+         "relationship":"Wife",
+         "phone":"+212678901234"
+      }
+   },
+   {
+      "id":"17",
+      "personal_details":{
+         "first_name":"Ahmed",
+         "last_name":"Elbahmadi",
+         "date_of_birth":"1987-09-25",
+         "gender":"Male",
+         "nationality":"Algerian",
+         "photo_url":"https://example.com/ahmedelbahmadi.jpg"
+      },
+      "employment_details":{
+         "department":"Information Technology",
+         "position":"IT Manager",
+         "start_date":"2015-08-20",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"ahmedelbahmadi@example.com",
+         "phone":"+213567890123",
+         "address":"789 Algiers Street, Algiers, Algeria"
+      },
+      "emergency_contact":{
+         "name":"Fatima Elbahmadi",
+         "relationship":"Mother",
+         "phone":"+213789012345"
+      }
+   },
+   {
+      "id":"18",
+      "personal_details":{
+         "first_name":"Amine",
+         "last_name":"Hakik",
+         "date_of_birth":"1993-05-20",
+         "gender":"Male",
+         "nationality":"Tunisian",
+         "photo_url":"https://example.com/aminehakik.jpg"
+      },
+      "employment_details":{
+         "department":"Finance",
+         "position":"Financial Analyst",
+         "start_date":"2020-02-15",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"aminehakik@example.com",
+         "phone":"+216345678901",
+         "address":"123 Tunis Street, Tunis, Tunisia"
+      },
+      "emergency_contact":{
+         "name":"Leila Hakik",
+         "relationship":"Sister",
+         "phone":"+216789012345"
+      }
+   },
+   {
+      "id":"19",
+      "personal_details":{
+         "first_name":"Reda",
+         "last_name":"Hakik",
+         "date_of_birth":"1995-12-10",
+         "gender":"Male",
+         "nationality":"Moroccan",
+         "photo_url":"https://example.com/redahakik.jpg"
+      },
+      "employment_details":{
+         "department":"Sales",
+         "position":"Sales Representative",
+         "start_date":"2021-01-05",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"redahakik@example.com",
+         "phone":"+212456789012",
+         "address":"789 Rabat Street, Rabat, Morocco"
+      },
+      "emergency_contact":{
+         "name":"Fatima Hakik",
+         "relationship":"Sister",
+         "phone":"+212678901234"
+      }
+   },
+   {
+      "id":"20",
+      "personal_details":{
+         "first_name":"Essalhi",
+         "last_name":"Khalid",
+         "date_of_birth":"1998-08-15",
+         "gender":"Male",
+         "nationality":"Moroccan",
+         "photo_url":"https://example.com/essalhikhalid.jpg"
+      },
+      "employment_details":{
+         "department":"Engineering",
+         "position":"Mechanical Engineer",
+         "start_date":"2019-07-10",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"essalhikhalid@example.com",
+         "phone":"+212567890123",
+         "address":"456 Marrakech Street, Marrakech, Morocco"
+      },
+      "emergency_contact":{
+         "name":"Fatima Khalid",
+         "relationship":"Mother",
+         "phone":"+212789012345"
+      }
+   },
+   {
+      "id":"21",
+      "personal_details":{
+         "first_name":"Salaheddine",
+         "last_name":"Kabli",
+         "date_of_birth":"1990-04-05",
+         "gender":"Male",
+         "nationality":"Algerian",
+         "photo_url":"https://example.com/salaheddinekabli.jpg"
+      },
+      "employment_details":{
+         "department":"Human Resources",
+         "position":"HR Specialist",
+         "start_date":"2017-05-20",
+         "end_date":null
+      },
+      "contact_details":{
+         "email":"salaheddinekabli@example.com",
+         "phone":"+213678901234",
+         "address":"789 Oran Street, Oran, Algeria"
+      },
+      "emergency_contact":{
+         "name":"Fatima Kabli",
+         "relationship":"Wife",
+         "phone":"+213567890123"
+      }
+   }
+]
 }
