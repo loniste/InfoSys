@@ -1,0 +1,10 @@
+ {
+   "status":"SUCCESS",
+   "message":"data retrieved successfully",
+   "data":
+      {
+         "id":"1",
+         "profile_name": "HAKIK NABIL",
+         "profile_picture": "https://plastichaco.com/wp-content/uploads/2016/06/john-doe-1.jpg"
+      }
+      }
