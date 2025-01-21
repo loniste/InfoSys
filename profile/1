@@ -2,144 +2,142 @@
    "status":"SUCCESS",
    "message":"data retrieved successfully",
    "data":{
-      "profile":{
-         "personalInformation":{
-            "profilePicture":"url_to_profile_picture",
-            "fullName":"John Doe",
-            "jobTitle":"Software Engineer",
-            "employeeID":"1",
-            "contactDetails":{
-               "email":"john.doe@example.com",
-               "phone":"+1234567890"
-            },
-            "dateOfBirth":"1990-01-15"
+      "personalInformation":{
+         "profilePicture":"url_to_profile_picture",
+         "fullName":"John Doe",
+         "jobTitle":"Software Engineer",
+         "employeeID":"1",
+         "contactDetails":{
+            "email":"john.doe@example.com",
+            "phone":"+1234567890"
          },
-         "professionalInformation":{
-            "department":"IT",
-            "manager":{
-               "name":"Jane Smith",
-               "contact":"jane.smith@example.com"
-            },
-            "joiningDate":"2020-06-01",
-            "employmentType":"Full-time",
-            "workLocation":"New York Office"
+         "dateOfBirth":"1990-01-15"
+      },
+      "professionalInformation":{
+         "department":"IT",
+         "manager":{
+            "name":"Jane Smith",
+            "contact":"jane.smith@example.com"
          },
-         "attendanceAndLeave":{
-            "attendanceSummary":{
-               "daysWorked":200,
-               "missedDays":5,
-               "lateArrivals":2
+         "joiningDate":"2020-06-01",
+         "employmentType":"Full-time",
+         "workLocation":"New York Office"
+      },
+      "attendanceAndLeave":{
+         "attendanceSummary":{
+            "daysWorked":200,
+            "missedDays":5,
+            "lateArrivals":2
+         },
+         "leaveBalance":{
+            "vacationDays":10,
+            "sickDays":5,
+            "otherLeaves":3
+         },
+         "upcomingLeave":{
+            "startDate":"2025-02-10",
+            "endDate":"2025-02-15",
+            "status":"Approved"
+         }
+      },
+      "performanceAndAchievements":{
+         "performanceRatings":{
+            "latestReviewScore":4.5,
+            "feedback":"Exceeds expectations"
+         },
+         "achievements":[
+            "Employee of the Month - March 2024",
+            "Best Innovator Award 2023"
+         ],
+         "skills":[
+            "JavaScript",
+            "Python",
+            "Team Leadership"
+         ]
+      },
+      "payrollInformation":{
+         "salaryDetails":{
+            "baseSalary":80000,
+            "currency":"USD"
+         },
+         "payHistory":[
+            {
+               "month":"December 2024",
+               "amount":6500
             },
-            "leaveBalance":{
-               "vacationDays":10,
-               "sickDays":5,
-               "otherLeaves":3
-            },
-            "upcomingLeave":{
-               "startDate":"2025-02-10",
-               "endDate":"2025-02-15",
-               "status":"Approved"
+            {
+               "month":"November 2024",
+               "amount":6500
             }
-         },
-         "performanceAndAchievements":{
-            "performanceRatings":{
-               "latestReviewScore":4.5,
-               "feedback":"Exceeds expectations"
+         ],
+         "taxAndBenefits":{
+            "taxDeductions":1500,
+            "benefits":{
+               "healthInsurance":"Yes",
+               "retirementPlan":"Yes"
+            }
+         }
+      },
+      "documentsAndCompliance":{
+         "uploadedDocuments":[
+            {
+               "name":"ID Proof",
+               "url":"url_to_id_proof"
             },
-            "achievements":[
-               "Employee of the Month - March 2024",
-               "Best Innovator Award 2023"
-            ],
-            "skills":[
-               "JavaScript",
-               "Python",
-               "Team Leadership"
-            ]
-         },
-         "payrollInformation":{
-            "salaryDetails":{
-               "baseSalary":80000,
-               "currency":"USD"
+            {
+               "name":"Certification",
+               "url":"url_to_certification"
+            }
+         ],
+         "complianceStatus":{
+            "mandatoryTraining":"Completed",
+            "certifications":"Up-to-date"
+         }
+      },
+      "notificationsAndActions":{
+         "pendingApprovals":[
+            {
+               "type":"Leave Request",
+               "status":"Pending",
+               "submittedOn":"2025-01-15"
+            }
+         ],
+         "tasks":[
+            {
+               "task":"Submit Q4 Report",
+               "deadline":"2025-01-20"
+            }
+         ],
+         "announcements":[
+            {
+               "title":"Annual Meeting",
+               "date":"2025-01-25",
+               "details":"Annual company meeting in main hall"
+            }
+         ]
+      },
+      "customizableSettings":{
+         "editProfile":true,
+         "preferences":{
+            "notifications":true,
+            "language":"English",
+            "theme":"Dark"
+         }
+      },
+      "optionalFeatures":{
+         "teamOverview":[
+            {
+               "name":"Alice Brown",
+               "role":"QA Engineer"
             },
-            "payHistory":[
-               {
-                  "month":"December 2024",
-                  "amount":6500
-               },
-               {
-                  "month":"November 2024",
-                  "amount":6500
-               }
-            ],
-            "taxAndBenefits":{
-               "taxDeductions":1500,
-               "benefits":{
-                  "healthInsurance":"Yes",
-                  "retirementPlan":"Yes"
-               }
+            {
+               "name":"Bob White",
+               "role":"DevOps Specialist"
             }
-         },
-         "documentsAndCompliance":{
-            "uploadedDocuments":[
-               {
-                  "name":"ID Proof",
-                  "url":"url_to_id_proof"
-               },
-               {
-                  "name":"Certification",
-                  "url":"url_to_certification"
-               }
-            ],
-            "complianceStatus":{
-               "mandatoryTraining":"Completed",
-               "certifications":"Up-to-date"
-            }
-         },
-         "notificationsAndActions":{
-            "pendingApprovals":[
-               {
-                  "type":"Leave Request",
-                  "status":"Pending",
-                  "submittedOn":"2025-01-15"
-               }
-            ],
-            "tasks":[
-               {
-                  "task":"Submit Q4 Report",
-                  "deadline":"2025-01-20"
-               }
-            ],
-            "announcements":[
-               {
-                  "title":"Annual Meeting",
-                  "date":"2025-01-25",
-                  "details":"Annual company meeting in main hall"
-               }
-            ]
-         },
-         "customizableSettings":{
-            "editProfile":true,
-            "preferences":{
-               "notifications":true,
-               "language":"English",
-               "theme":"Dark"
-            }
-         },
-         "optionalFeatures":{
-            "teamOverview":[
-               {
-                  "name":"Alice Brown",
-                  "role":"QA Engineer"
-               },
-               {
-                  "name":"Bob White",
-                  "role":"DevOps Specialist"
-               }
-            ],
-            "emergencyContact":{
-               "name":"Emily Johnson",
-               "phone":"+9876543210"
-            }
+         ],
+         "emergencyContact":{
+            "name":"Emily Johnson",
+            "phone":"+9876543210"
          }
       }
    }
