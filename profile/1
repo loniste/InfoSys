@@ -3,7 +3,7 @@
    "message":"data retrieved successfully",
    "data":{
       "personalInformation":{
-         "profilePicture":"url_to_profile_picture",
+         "profilePicture":"https://www.perkosis.com/uploads/staffs/big/9.jpg",
          "fullName":"John Doe",
          "jobTitle":"Software Engineer",
          "employeeID":"1",
